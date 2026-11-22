@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files (keep .env.example only)
+.env
+.env.local
+.env.*.local
+
+# Local database files
+instance/*.db
+instance/*.sqlite
+instance/*.sqlite3
+fitmanager.db
+*.db
+*.sqlite
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# OS-generated
+desktop.ini
